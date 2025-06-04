@@ -28,7 +28,7 @@ pipeline {
         }
         stage('Integration Tests on Staging') {
             steps {
-                echo 'Running integration tests in staging using Postman/Newman'
+                echo 'Running integration tests '
             }
         }
         stage('Deploy to Production') {
